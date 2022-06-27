@@ -1,4 +1,4 @@
-FROM nginx:1.21.6-alpine
+FROM nginx:1.23.0-alpine
 
 COPY nginx-auto-reloader.sh /usr/local/bin/nginx-auto-reloader.sh
 COPY ./docker-entrypoint.d/ /docker-entrypoint.d/
